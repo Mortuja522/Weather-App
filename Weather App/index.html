@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+
         <div class="header">
             <div class="search-box">
                 <input type="text" placeholder="Enter Your Location" class="input-box">
@@ -16,6 +17,11 @@
                 <button class="fa-solid fa-magnifying-glass" id="searchbtn"></button>
             </div>
         </div>
+
+      <div class="location-not-found">
+        <h1>Sorry, Location not found!!!</h1>
+        <img src="/assets/404.png" alt="404 Error">
+      </div>
 
         <div class="weather-body">
             
@@ -25,7 +31,6 @@
                 <p class="temperature">0<sup>°C</sup></p>
                 <p class="description"> light rain</p>
             </div>
-
             <div class="weather-details">
                 <div class="humidity">
                     <i class="fa-sharp fa-solid fa-droplet"></i>
@@ -34,7 +39,6 @@
                         <p>Humidity</p>
                     </div>
                 </div>
-
                 <div class="wind">
                     <i class="fa-solid fa-wind"></i>
                     <div class="text">
@@ -45,7 +49,6 @@
                 
             </div>
         </div>
-        
     </div>
      
     <script src="scripts.js"></script>
